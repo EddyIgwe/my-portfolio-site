@@ -1,0 +1,9 @@
+node_modules
+dist
+dist-single
+.ssr
+.ssr-single
+.stills
+.lab
+*.log
+.DS_Store

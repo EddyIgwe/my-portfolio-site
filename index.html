@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Edwin Igwebuike, Brand &amp; Marketing Designer</title>
+    <meta name="description" content="Edwin Igwebuike is a Figma-certified Brand &amp; Marketing Designer working remotely from Nigeria: brand identity, guidelines, campaigns, decks and print." />
+    <meta name="author" content="Edwin Igwebuike" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#f2f1ec" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://edwinigwebuike.netlify.app/" />
+
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Edwin Igwebuike" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:url" content="https://edwinigwebuike.netlify.app/" />
+    <meta property="og:title" content="Edwin Igwebuike, Brand &amp; Marketing Designer" />
+    <meta property="og:description" content="Brand identity, guidelines, campaigns, decks and print for 20+ clients across the UK, US, Canada, UAE and beyond. Available for remote roles." />
+    <meta property="og:image" content="https://edwinigwebuike.netlify.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Edwin Igwebuike's EI monogram in calligraphic script inside a circle, built from white halftone dots in 3D, beside his name." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Edwin Igwebuike, Brand &amp; Marketing Designer" />
+    <meta name="twitter:description" content="Brand identity, guidelines, campaigns, decks and print for 20+ clients. Available for remote roles." />
+    <meta name="twitter:image" content="https://edwinigwebuike.netlify.app/og-image.png" />
+
+    <!--preload-font-->
+
+    <script>
+      (function (d) {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t);
+        } catch (e) {}
+        var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        d.classList.add(reduce ? 'reduced' : 'motion');
+        setTimeout(function () {
+          if (!window.__ready) d.classList.remove('motion');
+        }, 4000);
+      })(document.documentElement);
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Edwin Igwebuike",
+        "jobTitle": "Brand & Marketing Designer",
+        "url": "https://edwinigwebuike.netlify.app/",
+        "email": "mailto:edwinigwebuike7@gmail.com",
+        "image": "https://edwinigwebuike.netlify.app/og-image.png",
+        "address": { "@type": "PostalAddress", "addressCountry": "NG" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Nigeria, Nsukka" },
+        "hasCredential": [
+          { "@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "B.Sc. Computer Science" },
+          { "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Figma Certified" }
+        ],
+        "knowsAbout": ["Brand identity", "Brand guidelines", "Logo design", "Marketing collateral", "Packaging and print production", "Pitch decks", "Social media graphics", "Infographics", "Editorial design"],
+        "sameAs": [
+          "https://www.behance.net/edwinigwebuike007",
+          "https://www.linkedin.com/in/edwin-igwebuike-0925a51a1",
+          "https://dribbble.com/edwinigwe"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+
+    <!-- Static twin of the contact form so Netlify Forms registers it at deploy time. -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="bot-field" />
+      <input type="radio" name="topic" value="Full-time role" />
+      <input type="radio" name="topic" value="Contract or part-time role" />
+      <input type="radio" name="topic" value="Freelance project" />
+      <input type="radio" name="topic" value="Something else" />
+      <input name="name" />
+      <input type="email" name="email" />
+      <input name="company" />
+      <textarea name="details"></textarea>
+    </form>
+
+    <script type="module" src="/src/entry-client.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Page not found, Edwin Igwebuike</title>
+    <meta name="description" content="This page isn't part of Edwin Igwebuike's portfolio. The overview has his work, experience, rates and contact details." />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#f2f1ec" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!--preload-font-->
+    <script>
+      (function (d) {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t);
+        } catch (e) {}
+        var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        d.classList.add(reduce ? 'reduced' : 'motion');
+        setTimeout(function () {
+          if (!window.__ready) d.classList.remove('motion');
+        }, 4000);
+      })(document.documentElement);
+    </script>
+  </head>
+  <body>
+    <div id="root" data-page="404"><!--app-html--></div>
+    <script type="module" src="/src/entry-client.tsx"></script>
+  </body>
+</html>
